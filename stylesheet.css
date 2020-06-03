@@ -1,1 +1,104 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+head{
+
+}
+.header{
+  background-color:black;
+  height:90px;
+  color:#fff;
+}
+.header-logo{
+  float:left;
+  font-size:36px;
+  padding:20px 40px;
+}
+.header-list li{
+  color:#fff;
+  float:left;
+  padding:33px 20px;
+}
+.main{
+background-image:url(IMG_7029.jpeg);
+background-size:cover;
+}
+.copy-container{
+  padding:100px 80px;
+}
+span{
+  color:red;
+}
+.copy-container h1{
+  font-size:80px;
+}
+.copy-container h2{
+  font-size:60px;
+}
+.experience{
+  padding:20px;
+  margin-bottom:50px;
+  font-size:30px;
+  color:#fff;
+}
+
+.experienceofstudying h4{
+    padding-bottom:30px;
+}
+
+.contents{
+  padding: 0px 80px;
+  height:500px;
+}
+.contents h3{
+  padding-bottom:15px;
+  font-size:28px;
+  border-bottom:2px #dee7ec solid;
+  margin-bottom:50px;
+}
+.experienceofstudying p{
+  color:white;
+  font-style: normal;
+  font-size:5px;
+  padding-bottom:30px;
+}
+
+.contents-item{
+  float:left;
+  padding-right:5px;
+  padding-left:5px;
+  padding-bottom:5px;
+  text-align:center;
+}
+.contents-item:hover{
+  opacity:0.8;
+}
+.contents-item p{
+  font-size:24px;
+  padding-left:5px;
+}
+.change{
+}
+ul li {
+  float:left;
+}
+
+footer {
+  background-color:black;
+  color:#fff;
+}
 
